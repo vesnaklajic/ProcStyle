@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Verification</title>
+<link href="form_style.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+    <h3>Job Application</h3>
+<form action="second.html" method="POST" class="dark-matter">
+<h1>Contact form <span>Please, fill in all the fileds</span>
+</h1>
+<label>
+<span>First name</span>
+<input id="inpN" type="text" name="name" placeholder="Your first name"/>
+</label>
+
+<label>
+    <span>Email</span>
+    <input id="inpE" type="text" name="email" placeholder="Your e-mail"/>
+    </label>
+    <label>
+    <span>Info</span>
+        <input id="inpI" type="text" name="info" placeholder="Additional information"/>
+        </label>
+
+<span>Contract</span><select name="selection">
+<option value="duredet">CDD</option>
+<option value="durenondet">CDI</option>
+<option value="alter">Alternance</option>
+</select>
+</label>
+<label>
+<span> &nbsp;</span>
+<input type="button" id="btn" class="but" value="send"/>
+</label>
+<script src="main.js" charset="utf-8"></script>
+    </form>
+</body>
+</html>
